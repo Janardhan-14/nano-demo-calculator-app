@@ -31,13 +31,3 @@ app.use(baseUrl, baseRouter);
 app.listen(PORT, () => {
   console.log("Server running at PORT", PORT);
 });
-
-
-baseRouter.post('/subtract', (req, res) => {
-    res.json({ "": null });
-});
-
-app.use(baseUrl, baseRouter);
-app.listen(PORT, () => {
-    console.log("Server running at PORT", PORT);
-});
